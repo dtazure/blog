@@ -1,0 +1,50 @@
+.content{
+    height: 1000px;
+    width: 100%;
+ 
+}
+
+.person{
+    margin-left: 180px;
+    padding-top: 20px;
+   
+}
+
+.person p{
+    margin-top: 10px;
+    margin-top: 10px;
+}
+.content-header{
+    margin-left: 170px;
+    width: 1000px;
+    height: 325px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #eee;
+}
+.content-header img{
+    width: 250px;
+    height: 162px;
+    cursor: pointer;
+}
+.content-header a{
+    display:block;
+    width: 250px;
+    height: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+   
+}
+.content-header a:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.person-content{
+    margin-left: 20px;
+}
+h2{
+    border-bottom: 1px solid #eee;
+}

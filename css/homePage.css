@@ -1,0 +1,20 @@
+.content{
+    background-color: #eee;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.homePage{
+    width: 1000px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.img3{
+    margin-top: 15px;
+}
