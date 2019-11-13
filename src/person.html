@@ -5,25 +5,25 @@
 <section class="section-content">
     <div class="content">
         <div class="content-header">
-            <img src="<%- './static/image/person5.png' %>" alt="">
-            <a href="./article/article6.html">我是怎么评价自己的</a>
-            <img src="<%- './static/image/person6.png' %>" alt="">
-            <a href="./article/article3.html">安静的做一个爱技术的人</a>
-            <a href="./article/article5.html">云南之行——初到昆明滇池半日游</a>
-            <img src="<%- './static/image/person8.png' %>" alt="">
-            <a href="./article/article4.html">某一人似曾相识、某一刻似曾经历</a>
-            <img src="<%- './static/image/person7.png' %>" alt="">
+            <img src="<%- './image/person5.png' %>" alt="">
+            <a href="article6.html">我是怎么评价自己的</a>
+            <img src="<%- './image/person6.png' %>" alt="">
+            <a href="article3.html">安静的做一个爱技术的人</a>
+            <a href="article5.html">云南之行——初到昆明滇池半日游</a>
+            <img src="<%- './image/person8.png' %>" alt="">
+            <a href="article4.html">某一人似曾相识、某一刻似曾经历</a>
+            <img src="<%- './image/person7.png' %>" alt="">
 
         </div>
         <div class="person">
             <h2>博主简介:</h2>
             <div class="person-content">
-                <p>姓名:杜涛</p>
-                <p>职业:web前端</p>
-                <p>工作地址:合肥之心城</p>
-                <p>emial：1294889047@qq.com</p>
-                <p>qq：1294889047</p>
-                <p>telnumber：19942512330</p>
+                <p>姓名:<%- personData.name%></p>
+                <p>职业:<%- personData.job%></p>
+                <p>工作地址:<%- personData.address%></p>
+                <p>email：<%- personData.email%></p>
+                <p>qq：<%- personData.qq%></p>
+                <p>telnumber：<%- personData.tel%></p>
             </div>
         </div>
     </div>

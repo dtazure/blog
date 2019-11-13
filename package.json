@@ -20,7 +20,12 @@
   },
   "homepage": "https://github.com/dtazure/blog#readme",
   "devDependencies": {
-    "ejs": "^2.7.1"
+    "ejs": "^2.7.1",
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-view": "^2.1.3",
+    "koa-views": "^6.2.1"
   },
   "dependencies": {
     "gulp": "^4.0.2",
@@ -29,6 +34,7 @@
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^5.0.3",
     "gulp-minify-css": "^1.2.4",
+    "gulp-nodemon": "^2.4.2",
     "gulp-uglify": "^3.0.1",
     "gulp-watch": "^5.0.1"
   }
